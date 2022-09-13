@@ -1,0 +1,38 @@
+
+
+
+
+#lewo
+{
+    color:white;
+	background-color:#333 ;
+    float: left;
+    text-align: center;
+    min-height:1500px;
+    width: 20%;
+	font-size:16pt;
+}
+
+
+#srodek
+{
+    background-color: #303030 ;
+    float: left;
+    color: #fff;
+    text-align: center;
+    min-height:1500px;
+    width:60%;
+
+}
+#prawo
+{
+    background-color: #333 ;
+    float: left;
+    color: #fff;
+    text-align: center;
+    min-height:1500px;
+    width:20%;
+}
+
+
+
