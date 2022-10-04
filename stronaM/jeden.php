@@ -23,32 +23,20 @@
 lewo
 </div>
 <div id="srodek">
-<?php 
-$jeden=10;
-$dwa="ebebe";
-$trzy="cena to $jeden";
-echo "witaj świecie piękny";
-echo"<br>czesc";
-echo"<br>czesc";
-echo"<br>czesc<br>";
+<a href="index.php" id="a">Powrot</a>
+<?php
+$imie=$_POST['imie'];
+$nazwisko=$_POST['nazwisko'];
+$liczba1=$_POST['liczba1'];
+$liczba2=$_POST['liczba2'];
+$liczba3=$_POST['liczba3'];
+$liczba4=$_POST['liczba4'];
+$suma=$liczba1+$liczba2+$liczba3+$liczba4;
 
-
-
-echo "$jeden<br>";
-echo "$dwa<br>";
-echo "$trzy <br>";
-
-
-
+echo
+$suma;
 ?>
-<form action="jeden.php" method="post">
 
-	Podaj liczbe 1<input type="number" name="liczba1" ><br>
-	Podaj liczbe 2<input type="number" name="liczba2" ><br>
-	Podaj liczbe 3<input type="number" name="liczba3" ><br>
-	Podaj liczbe 4<input type="number" name="liczba4" ><br>
-	<input type="submit" value="wyslij" href="jeden.php"><br>
-</form>
 
 
 </div>

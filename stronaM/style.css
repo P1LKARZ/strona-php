@@ -9,7 +9,7 @@ body
 #lewo
 {
     color:white;
-	background-color:#333 ;
+	background-color:rgb(75, 75, 75) ;
     float: left;
     text-align: center;
     min-height:1500px;
@@ -30,13 +30,19 @@ body
 }
 #prawo
 {
-    background-color: #333 ;
+    background-color: rgb(75, 75, 75)  ;
     float: left;
     color: #fff;
     text-align: center;
     min-height:1500px;
     width:20%;
 }
+#a
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
 
 
 
