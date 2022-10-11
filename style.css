@@ -1,0 +1,48 @@
+body
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#lewo
+{
+    color:white;
+	background-color:rgb(75, 75, 75) ;
+    float: left;
+    text-align: center;
+    min-height:1500px;
+    width: 20%;
+	font-size:16pt;
+}
+
+
+#srodek
+{
+    background-color: #303030 ;
+    float: left;
+    color: #fff;
+    text-align: center;
+    min-height:1500px;
+    width:60%;
+
+}
+#prawo
+{
+    background-color: rgb(75, 75, 75)  ;
+    float: left;
+    color: #fff;
+    text-align: center;
+    min-height:1500px;
+    width:20%;
+}
+#a
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+
+
