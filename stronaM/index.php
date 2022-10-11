@@ -7,7 +7,7 @@
 <head >
 
 	<meta charset="utf-8"/>
-		<title>strona phpp</title>
+		
 			<meta name="keywords" content="informatyka, komputer, mysz"/> 
 				<meta name="description" content="strona o informatyce"/>
 					<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -27,6 +27,7 @@ lewo
 $jeden=10;
 $dwa="ebebe";
 $trzy="cena to $jeden";
+$php="$$ PHP cwiczymy string $$";
 echo "witaj świecie piękny";
 echo"<br>czesc";
 echo"<br>czesc";
@@ -39,20 +40,25 @@ echo "$dwa<br>";
 echo "$trzy <br>";
 
 
-
 ?>
 <form action="jeden.php" method="post">
-
-	Podaj liczbe 1<input type="number" name="liczba1" ><br>
-	Podaj liczbe 2<input type="number" name="liczba2" ><br>
-	Podaj liczbe 3<input type="number" name="liczba3" ><br>
-	Podaj liczbe 4<input type="number" name="liczba4" ><br>
-	<input type="submit" value="wyslij" href="jeden.php"><br>
+	Podaj imie<input type="text" name="imie" id="imie"><br>
+	Podaj nazwisko<input type="text" name="nazwisko" id="nazwisko"><br>
+	podaj liczbe <input type="number" name="numer" id="numer"><input type="number" name="numer1" id="numer1">
+	<input type="submit" value="wyslij" href="jeden.php">
 </form>
 
-
 </div>
-<div id="prawo">prawo</div>
+<div id="prawo">
+<?php	echo 
+"<style>
+h1{color:green;}
+h2{color:#42eb75;}
+</style>
+<h1> PHP to super język programowania</h1>";
+echo "<h2>$php</h2>";?>
+</div>
+
 
 	
 </body>
